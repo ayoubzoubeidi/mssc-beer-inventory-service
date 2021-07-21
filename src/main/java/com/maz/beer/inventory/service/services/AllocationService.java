@@ -5,8 +5,11 @@ import com.maz.brewery.model.BeerOrderLineDto;
 
 public interface AllocationService {
 
-    public Boolean allocateOrder(BeerOrderDto beerOrderDto);
+    Boolean allocateOrder(BeerOrderDto beerOrderDto);
 
-    public void allocateOrderLine(BeerOrderLineDto beerOrderLineDto);
+    void allocateOrderLine(BeerOrderLineDto beerOrderLineDto);
+
+    void deallocateOrder(BeerOrderDto beerOrderDto);
+
 
 }

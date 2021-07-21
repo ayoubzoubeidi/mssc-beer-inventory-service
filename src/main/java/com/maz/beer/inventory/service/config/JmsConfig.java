@@ -13,6 +13,7 @@ public class JmsConfig {
     public final static String NEW_INVENTORY_QUEUE = "new-inventory";
     public final static String ALLOCATE_ORDER_QUEUE = "allocate-order";
     public final static String ALLOCATE_ORDER_RESPONSE_QUEUE = "allocate-order-result";
+    public final static String DEALLOCATE_ORDER_QUEUE = "deallocate-order";
 
     @Bean //Message serialization to json
     public MessageConverter messageConverter(ObjectMapper objectMapper) {
