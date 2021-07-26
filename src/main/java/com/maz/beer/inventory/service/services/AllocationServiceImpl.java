@@ -72,7 +72,6 @@ public class AllocationServiceImpl implements AllocationService {
                     .upc(beerOrderLineDto.getUpc())
                     .quantityOnHand(beerOrderLineDto.getOrderQuantity())
                     .build();
-
         beerInventoryRepository.save(beerInventory);
         log.debug("Inventory Saved");
         });
