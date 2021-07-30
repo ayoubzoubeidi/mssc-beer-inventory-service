@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    discovery:
+      enabled: true
+    config:
+      discovery:
+        enabled: true
+        service-id: brewery-config
+
+#logging:
+#  level:
+#    org.springframework.cloud:  DEBUG
